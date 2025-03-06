@@ -33,13 +33,13 @@ public class cauba {
 
 
 
-              chromeDriver.get("https://vitimex.com.vn/dang-nhap.html");
-              WebElement inputEmailhoacSDT = chromeDriver.findElement(By.xpath("//input[@id='account']"));
-              inputEmailhoacSDT.sendKeys("synguyen1346ck@gmail.com");
-              WebElement inputMK = chromeDriver.findElement(By.xpath("//input[@id='pass']"));
-              inputMK.sendKeys("1234");
-
-              WebElement btnDN = chromeDriver.findElement(By.xpath("//a[@id='signin-btn']"));
-              btnDN.click();
+//              chromeDriver.get("https://vitimex.com.vn/dang-nhap.html");
+//              WebElement inputEmailhoacSDT = chromeDriver.findElement(By.xpath("//input[@id='account']"));
+//              inputEmailhoacSDT.sendKeys("synguyen1346ck@gmail.com");
+//              WebElement inputMK = chromeDriver.findElement(By.xpath("//input[@id='pass']"));
+//              inputMK.sendKeys("1234");
+//
+//              WebElement btnDN = chromeDriver.findElement(By.xpath("//a[@id='signin-btn']"));
+//              btnDN.click();
             }
 }
